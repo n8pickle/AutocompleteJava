@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eea25d4b-5c6f-4f77-9540-bfb2c2a9ef0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/n8pickle/autocomp/AutocompleteGUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/n8pickle/autocomp/Autocomplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/n8pickle/autocomp/Autocomplete.java" afterDir="false" />
     </list>
