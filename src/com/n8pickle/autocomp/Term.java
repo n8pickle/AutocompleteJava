@@ -14,26 +14,22 @@ public class Term implements Comparable<Term> {
     // Compare the terms in descending order by weight.
     public static Comparator<Term> byReverseWeightOrder() {
         return (a, b) -> {
-            double weightA = a.weight;
-            double weightB = b.weight;
-            if (weightA > weightB)
-                return -1;
-            else if (weightA < weightB)
-                return 1;
-            return 0;
+            return ((Double)b.weight).compareTo((Double)a.weight);
         };
     }
 
     // Compare the terms in lexicographic order but using only the first r characters of each query.
     public static Comparator<Term> byPrefixOrder(int r) {
         return (a, b) -> {
-            if (a.query.length() < r && b.query.length() < r)
-                return a.query.compareTo(b.query);
-            else if (a.query.length() < r)
-                return a.query.compareTo(b.query.substring(0, r-1));
-            else if (b.query.length() < r)
-                return a.query.substring(0, r-1).compareTo(b.query);
-            return a.query.substring(0, r-1).compareTo(b.query.substring(0, r-1));
+            String aFormatted = a.query;
+            String bFormatted = b.query;
+            if(aFormatted.length() > r){
+                 aFormatted = aFormatted.substring(0, r);
+            }
+            if (bFormatted.length() > r){
+                bFormatted = bFormatted.substring(0, r);
+            }
+           return aFormatted.compareTo(bFormatted);
         };
     }
 
@@ -46,23 +42,6 @@ public class Term implements Comparable<Term> {
             return -1;
         else
             return 0;
-
-//        int shortest;
-//        if (that.query.length() > this.query.length())
-//            shortest = this.query.length();
-//        else
-//            shortest = that.query.length();
-//
-//        for(int i = 0; i < shortest - 1; i++) {
-//            char a = Character.toLowerCase(this.query.charAt(i));
-//            char b = Character.toLowerCase(that.query.charAt(i));
-//            if (a > b) {
-//                return 1;
-//            } else if (b > a) {
-//                return -1;
-//            }
-//        }
-//        return 0;
     }
 
     // Return a string representation of the term in the following format:
