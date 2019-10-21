@@ -1,11 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="AutoComplete:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="eea25d4b-5c6f-4f77-9540-bfb2c2a9ef0b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/n8pickle/autocomp/AutocompleteGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/n8pickle/autocomp/Autocomplete.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/n8pickle/autocomp/AutocompleteGUI$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/n8pickle/autocomp/AutocompleteGUI$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/n8pickle/autocomp/AutocompleteGUI$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/n8pickle/autocomp/AutocompleteGUI$AutocompletePanel$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/n8pickle/autocomp/AutocompleteGUI$AutocompletePanel$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/n8pickle/autocomp/AutocompleteGUI$AutocompletePanel$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/n8pickle/autocomp/AutocompleteGUI$AutocompletePanel$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/n8pickle/autocomp/AutocompleteGUI$AutocompletePanel$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/n8pickle/autocomp/AutocompleteGUI$AutocompletePanel$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/n8pickle/autocomp/AutocompleteGUI$AutocompletePanel$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/n8pickle/autocomp/AutocompleteGUI$AutocompletePanel$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/n8pickle/autocomp/AutocompleteGUI$AutocompletePanel$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/n8pickle/autocomp/AutocompleteGUI$AutocompletePanel.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/n8pickle/autocomp/AutocompleteGUI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/n8pickle/autocomp/BinarySearchDeluxe.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/n8pickle/autocomp/Term.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/n8pickle/autocomp/algs4.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/n8pickle/autocomp/Autocomplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/n8pickle/autocomp/Autocomplete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AutoComplete/com/n8pickle/autocomp/Autocomplete.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutoComplete/com/n8pickle/autocomp/Autocomplete.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AutoComplete/com/n8pickle/autocomp/BinarySearchDeluxe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AutoComplete/com/n8pickle/autocomp/BinarySearchDeluxe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/n8pickle/autocomp/BinarySearchDeluxe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/n8pickle/autocomp/BinarySearchDeluxe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/n8pickle/autocomp/Term.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/n8pickle/autocomp/Term.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,10 +55,15 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Books" />
-    <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/n8pickle/autocomp" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\n8pic\IdeaProjects\AutoComplete\src\com\n8pickle\autocomp" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -47,9 +77,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.AutocompleteGUI">
     <configuration name="AutocompleteGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.n8pickle.autocomp.AutocompleteGUI" />
+      <module name="AutoComplete" />
+      <option name="PROGRAM_PARAMETERS" value=".\\wiktionary.txt 3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.n8pickle.autocomp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearchDeluxe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.n8pickle.autocomp.BinarySearchDeluxe" />
       <module name="AutoComplete" />
       <extension name="coverage">
         <pattern>
@@ -61,9 +105,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.AutocompleteGUI" />
+      <item itemvalue="Application.BinarySearchDeluxe" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.AutocompleteGUI" />
+        <item itemvalue="Application.BinarySearchDeluxe" />
       </list>
     </recent_temporary>
   </component>
